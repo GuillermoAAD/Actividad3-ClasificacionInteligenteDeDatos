@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Los estados con el mayor numero de emergencias ambientales ocurridas para cada tipo de emergencia, del  27 de mayo del 2020 al 26 de junio del 2020"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView_EmergencysList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</LinearLayout>
